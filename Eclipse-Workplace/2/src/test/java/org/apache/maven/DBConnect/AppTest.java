@@ -41,7 +41,7 @@ public class AppTest {
 				conn = DriverManager.getConnection(dbURL);
 
 				if (conn != null) {
-					System.out.println("Connected");
+					System.out.println("Connected to DB");
 				}
 			} catch (Exception e) {
 				System.out.println("Issue in Connection");
