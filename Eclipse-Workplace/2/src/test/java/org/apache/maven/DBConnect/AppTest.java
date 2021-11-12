@@ -44,7 +44,7 @@ public class AppTest {
 					System.out.println("Connected");
 				}
 			} catch (Exception e) {
-				System.out.println("issue");
+				System.out.println("Issue in Connection");
 			}
 
 			ExcelUtils.SetExcelFile("E://Execute.xlsx", "Sheet2");
